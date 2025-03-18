@@ -1,0 +1,21 @@
+{
+  "name": "link-wrapper",
+  "version": "1.0.0",
+  "description": "Link Wrapper Block which wraps any component in a link",
+  "author": "By Ranlev - MagnusHJensen",
+  "license": "GPL-2.0-or-later",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "wp-scripts build && wp-scripts build-blocks-manifest",
+    "format": "wp-scripts format",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "packages-update": "wp-scripts packages-update",
+    "plugin-zip": "wp-scripts plugin-zip",
+    "start": "wp-scripts start && wp-scripts build-blocks-manifest"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^30.13.0",
+    "@wordpress/browserslist-config": "^6.20.0"
+  }
+}
